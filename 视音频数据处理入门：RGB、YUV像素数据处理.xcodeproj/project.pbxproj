@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		84520D181FDE404900029B28 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D171FDE404900029B28 /* main.c */; };
+		84520D2E1FDE4DD500029B28 /* YUV444P.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D251FDE4CCF00029B28 /* YUV444P.c */; };
+		84520D321FDE591500029B28 /* yuv420_gray.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D301FDE591500029B28 /* yuv420_gray.c */; };
+		84520D361FDE625F00029B28 /* 将YUV420P像素数据的亮度减半.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D341FDE625F00029B28 /* 将YUV420P像素数据的亮度减半.c */; };
+		84520D3A1FDE708200029B28 /* 将YUV420P像素数据的周围加上边框.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D381FDE708200029B28 /* 将YUV420P像素数据的周围加上边框.c */; };
+		84520D3E1FDE870800029B28 /* 生成YUV420P格式的灰阶测试图.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D3C1FDE870800029B28 /* 生成YUV420P格式的灰阶测试图.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,25 @@
 /* Begin PBXFileReference section */
 		84520D141FDE404900029B28 /* 视音频数据处理入门：RGB、YUV像素数据处理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "视音频数据处理入门：RGB、YUV像素数据处理"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84520D171FDE404900029B28 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		84520D221FDE4CCF00029B28 /* output_444_u.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = output_444_u.y; sourceTree = "<group>"; };
+		84520D231FDE4CCF00029B28 /* output_444_v.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = output_444_v.y; sourceTree = "<group>"; };
+		84520D241FDE4CCF00029B28 /* output_444_y.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = output_444_y.y; sourceTree = "<group>"; };
+		84520D251FDE4CCF00029B28 /* YUV444P.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = YUV444P.c; sourceTree = "<group>"; };
+		84520D261FDE4CCF00029B28 /* YUV444P.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YUV444P.h; sourceTree = "<group>"; };
+		84520D281FDE4D7C00029B28 /* lena_256x256_yuv422p.yuv */ = {isa = PBXFileReference; lastKnownFileType = text; path = lena_256x256_yuv422p.yuv; sourceTree = "<group>"; };
+		84520D291FDE4D7C00029B28 /* lena_256x256_rgb24.rgb */ = {isa = PBXFileReference; lastKnownFileType = text; path = lena_256x256_rgb24.rgb; sourceTree = "<group>"; };
+		84520D2A1FDE4D7C00029B28 /* lena_256x256_yuv420p.yuv */ = {isa = PBXFileReference; lastKnownFileType = text; path = lena_256x256_yuv420p.yuv; sourceTree = "<group>"; };
+		84520D2B1FDE4D7C00029B28 /* lena_256x256_yuv444p.yuv */ = {isa = PBXFileReference; lastKnownFileType = text; path = lena_256x256_yuv444p.yuv; sourceTree = "<group>"; };
+		84520D2C1FDE4D7C00029B28 /* graybar_640x360.yuv */ = {isa = PBXFileReference; lastKnownFileType = file; path = graybar_640x360.yuv; sourceTree = "<group>"; };
+		84520D2D1FDE4D7C00029B28 /* lena_distort_256x256_yuv420p.yuv */ = {isa = PBXFileReference; lastKnownFileType = text; path = lena_distort_256x256_yuv420p.yuv; sourceTree = "<group>"; };
+		84520D301FDE591500029B28 /* yuv420_gray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = yuv420_gray.c; sourceTree = "<group>"; };
+		84520D311FDE591500029B28 /* yuv420_gray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yuv420_gray.h; sourceTree = "<group>"; };
+		84520D341FDE625F00029B28 /* 将YUV420P像素数据的亮度减半.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "将YUV420P像素数据的亮度减半.c"; sourceTree = "<group>"; };
+		84520D351FDE625F00029B28 /* 将YUV420P像素数据的亮度减半.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "将YUV420P像素数据的亮度减半.h"; sourceTree = "<group>"; };
+		84520D381FDE708200029B28 /* 将YUV420P像素数据的周围加上边框.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "将YUV420P像素数据的周围加上边框.c"; sourceTree = "<group>"; };
+		84520D391FDE708200029B28 /* 将YUV420P像素数据的周围加上边框.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "将YUV420P像素数据的周围加上边框.h"; sourceTree = "<group>"; };
+		84520D3C1FDE870800029B28 /* 生成YUV420P格式的灰阶测试图.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "生成YUV420P格式的灰阶测试图.c"; sourceTree = "<group>"; };
+		84520D3D1FDE870800029B28 /* 生成YUV420P格式的灰阶测试图.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "生成YUV420P格式的灰阶测试图.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +81,76 @@
 		84520D161FDE404900029B28 /* 视音频数据处理入门：RGB、YUV像素数据处理 */ = {
 			isa = PBXGroup;
 			children = (
+				84520D3B1FDE86F600029B28 /* 生成YUV420P格式的灰阶测试图 */,
+				84520D371FDE6C4A00029B28 /* 将YUV420P像素数据的周围加上边框 */,
+				84520D331FDE623500029B28 /* 将YUV420P像素数据的亮度减半 */,
+				84520D2F1FDE58D500029B28 /* yuv420p去掉颜色（变成灰度图） */,
+				84520D271FDE4D3E00029B28 /* source */,
+				84520D211FDE4CCF00029B28 /* yuv444p */,
 				84520D171FDE404900029B28 /* main.c */,
 			);
 			path = "视音频数据处理入门：RGB、YUV像素数据处理";
+			sourceTree = "<group>";
+		};
+		84520D211FDE4CCF00029B28 /* yuv444p */ = {
+			isa = PBXGroup;
+			children = (
+				84520D221FDE4CCF00029B28 /* output_444_u.y */,
+				84520D231FDE4CCF00029B28 /* output_444_v.y */,
+				84520D241FDE4CCF00029B28 /* output_444_y.y */,
+				84520D251FDE4CCF00029B28 /* YUV444P.c */,
+				84520D261FDE4CCF00029B28 /* YUV444P.h */,
+			);
+			path = yuv444p;
+			sourceTree = "<group>";
+		};
+		84520D271FDE4D3E00029B28 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				84520D2C1FDE4D7C00029B28 /* graybar_640x360.yuv */,
+				84520D291FDE4D7C00029B28 /* lena_256x256_rgb24.rgb */,
+				84520D2A1FDE4D7C00029B28 /* lena_256x256_yuv420p.yuv */,
+				84520D281FDE4D7C00029B28 /* lena_256x256_yuv422p.yuv */,
+				84520D2B1FDE4D7C00029B28 /* lena_256x256_yuv444p.yuv */,
+				84520D2D1FDE4D7C00029B28 /* lena_distort_256x256_yuv420p.yuv */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		84520D2F1FDE58D500029B28 /* yuv420p去掉颜色（变成灰度图） */ = {
+			isa = PBXGroup;
+			children = (
+				84520D301FDE591500029B28 /* yuv420_gray.c */,
+				84520D311FDE591500029B28 /* yuv420_gray.h */,
+			);
+			path = "yuv420p去掉颜色（变成灰度图）";
+			sourceTree = "<group>";
+		};
+		84520D331FDE623500029B28 /* 将YUV420P像素数据的亮度减半 */ = {
+			isa = PBXGroup;
+			children = (
+				84520D341FDE625F00029B28 /* 将YUV420P像素数据的亮度减半.c */,
+				84520D351FDE625F00029B28 /* 将YUV420P像素数据的亮度减半.h */,
+			);
+			path = "将YUV420P像素数据的亮度减半";
+			sourceTree = "<group>";
+		};
+		84520D371FDE6C4A00029B28 /* 将YUV420P像素数据的周围加上边框 */ = {
+			isa = PBXGroup;
+			children = (
+				84520D381FDE708200029B28 /* 将YUV420P像素数据的周围加上边框.c */,
+				84520D391FDE708200029B28 /* 将YUV420P像素数据的周围加上边框.h */,
+			);
+			path = "将YUV420P像素数据的周围加上边框";
+			sourceTree = "<group>";
+		};
+		84520D3B1FDE86F600029B28 /* 生成YUV420P格式的灰阶测试图 */ = {
+			isa = PBXGroup;
+			children = (
+				84520D3C1FDE870800029B28 /* 生成YUV420P格式的灰阶测试图.c */,
+				84520D3D1FDE870800029B28 /* 生成YUV420P格式的灰阶测试图.h */,
+			);
+			path = "生成YUV420P格式的灰阶测试图";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84520D3E1FDE870800029B28 /* 生成YUV420P格式的灰阶测试图.c in Sources */,
+				84520D2E1FDE4DD500029B28 /* YUV444P.c in Sources */,
+				84520D321FDE591500029B28 /* yuv420_gray.c in Sources */,
+				84520D361FDE625F00029B28 /* 将YUV420P像素数据的亮度减半.c in Sources */,
 				84520D181FDE404900029B28 /* main.c in Sources */,
+				84520D3A1FDE708200029B28 /* 将YUV420P像素数据的周围加上边框.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

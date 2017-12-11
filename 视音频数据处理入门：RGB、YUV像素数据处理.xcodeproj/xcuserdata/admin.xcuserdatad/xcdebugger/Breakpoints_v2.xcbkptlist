@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x89c6;&#x97f3;&#x9891;&#x6570;&#x636e;&#x5904;&#x7406;&#x5165;&#x95e8;&#xff1a;RGB&#x3001;YUV&#x50cf;&#x7d20;&#x6570;&#x636e;&#x5904;&#x7406;/&#x5c06;YUV420P&#x50cf;&#x7d20;&#x6570;&#x636e;&#x7684;&#x5468;&#x56f4;&#x52a0;&#x4e0a;&#x8fb9;&#x6846;/&#x5c06;YUV420P&#x50cf;&#x7d20;&#x6570;&#x636e;&#x7684;&#x5468;&#x56f4;&#x52a0;&#x4e0a;&#x8fb9;&#x6846;.c"
+            timestampString = "534680714.315507"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "simplest_yuv420_border"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
