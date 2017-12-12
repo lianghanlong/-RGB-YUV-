@@ -13,6 +13,10 @@
 		84520D361FDE625F00029B28 /* 将YUV420P像素数据的亮度减半.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D341FDE625F00029B28 /* 将YUV420P像素数据的亮度减半.c */; };
 		84520D3A1FDE708200029B28 /* 将YUV420P像素数据的周围加上边框.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D381FDE708200029B28 /* 将YUV420P像素数据的周围加上边框.c */; };
 		84520D3E1FDE870800029B28 /* 生成YUV420P格式的灰阶测试图.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D3C1FDE870800029B28 /* 生成YUV420P格式的灰阶测试图.c */; };
+		84520D421FDF774600029B28 /* 计算两个YUV420P像素数据的PSNR.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D401FDF774600029B28 /* 计算两个YUV420P像素数据的PSNR.c */; };
+		84520D461FDF868D00029B28 /* 分离RGB24像素数据中的R、G、B分量.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D441FDF868D00029B28 /* 分离RGB24像素数据中的R、G、B分量.c */; };
+		84520D4A1FDFBAAB00029B28 /* 将RGB24格式像素数据封装为BMP图像.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D481FDFBAAB00029B28 /* 将RGB24格式像素数据封装为BMP图像.c */; };
+		84520D4E1FDFCB6300029B28 /* 将RGB24格式像素数据转换为YUV420P格式像素数据.c in Sources */ = {isa = PBXBuildFile; fileRef = 84520D4C1FDFCB6300029B28 /* 将RGB24格式像素数据转换为YUV420P格式像素数据.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +53,14 @@
 		84520D391FDE708200029B28 /* 将YUV420P像素数据的周围加上边框.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "将YUV420P像素数据的周围加上边框.h"; sourceTree = "<group>"; };
 		84520D3C1FDE870800029B28 /* 生成YUV420P格式的灰阶测试图.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "生成YUV420P格式的灰阶测试图.c"; sourceTree = "<group>"; };
 		84520D3D1FDE870800029B28 /* 生成YUV420P格式的灰阶测试图.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "生成YUV420P格式的灰阶测试图.h"; sourceTree = "<group>"; };
+		84520D401FDF774600029B28 /* 计算两个YUV420P像素数据的PSNR.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "计算两个YUV420P像素数据的PSNR.c"; sourceTree = "<group>"; };
+		84520D411FDF774600029B28 /* 计算两个YUV420P像素数据的PSNR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "计算两个YUV420P像素数据的PSNR.h"; sourceTree = "<group>"; };
+		84520D441FDF868D00029B28 /* 分离RGB24像素数据中的R、G、B分量.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "分离RGB24像素数据中的R、G、B分量.c"; sourceTree = "<group>"; };
+		84520D451FDF868D00029B28 /* 分离RGB24像素数据中的R、G、B分量.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "分离RGB24像素数据中的R、G、B分量.h"; sourceTree = "<group>"; };
+		84520D481FDFBAAB00029B28 /* 将RGB24格式像素数据封装为BMP图像.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "将RGB24格式像素数据封装为BMP图像.c"; sourceTree = "<group>"; };
+		84520D491FDFBAAB00029B28 /* 将RGB24格式像素数据封装为BMP图像.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "将RGB24格式像素数据封装为BMP图像.h"; sourceTree = "<group>"; };
+		84520D4C1FDFCB6300029B28 /* 将RGB24格式像素数据转换为YUV420P格式像素数据.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "将RGB24格式像素数据转换为YUV420P格式像素数据.c"; sourceTree = "<group>"; };
+		84520D4D1FDFCB6300029B28 /* 将RGB24格式像素数据转换为YUV420P格式像素数据.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "将RGB24格式像素数据转换为YUV420P格式像素数据.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,10 @@
 		84520D161FDE404900029B28 /* 视音频数据处理入门：RGB、YUV像素数据处理 */ = {
 			isa = PBXGroup;
 			children = (
+				84520D4B1FDFCB5900029B28 /* 将RGB24格式像素数据转换为YUV420P格式像素数据 */,
+				84520D471FDFBA9800029B28 /* 将RGB24格式像素数据封装为BMP图像 */,
+				84520D431FDF867F00029B28 /* 分离RGB24像素数据中的R、G、B分量 */,
+				84520D3F1FDF772E00029B28 /* 计算两个YUV420P像素数据的PSNR */,
 				84520D3B1FDE86F600029B28 /* 生成YUV420P格式的灰阶测试图 */,
 				84520D371FDE6C4A00029B28 /* 将YUV420P像素数据的周围加上边框 */,
 				84520D331FDE623500029B28 /* 将YUV420P像素数据的亮度减半 */,
@@ -153,6 +169,42 @@
 			path = "生成YUV420P格式的灰阶测试图";
 			sourceTree = "<group>";
 		};
+		84520D3F1FDF772E00029B28 /* 计算两个YUV420P像素数据的PSNR */ = {
+			isa = PBXGroup;
+			children = (
+				84520D401FDF774600029B28 /* 计算两个YUV420P像素数据的PSNR.c */,
+				84520D411FDF774600029B28 /* 计算两个YUV420P像素数据的PSNR.h */,
+			);
+			path = "计算两个YUV420P像素数据的PSNR";
+			sourceTree = "<group>";
+		};
+		84520D431FDF867F00029B28 /* 分离RGB24像素数据中的R、G、B分量 */ = {
+			isa = PBXGroup;
+			children = (
+				84520D441FDF868D00029B28 /* 分离RGB24像素数据中的R、G、B分量.c */,
+				84520D451FDF868D00029B28 /* 分离RGB24像素数据中的R、G、B分量.h */,
+			);
+			path = "分离RGB24像素数据中的R、G、B分量";
+			sourceTree = "<group>";
+		};
+		84520D471FDFBA9800029B28 /* 将RGB24格式像素数据封装为BMP图像 */ = {
+			isa = PBXGroup;
+			children = (
+				84520D481FDFBAAB00029B28 /* 将RGB24格式像素数据封装为BMP图像.c */,
+				84520D491FDFBAAB00029B28 /* 将RGB24格式像素数据封装为BMP图像.h */,
+			);
+			path = "将RGB24格式像素数据封装为BMP图像";
+			sourceTree = "<group>";
+		};
+		84520D4B1FDFCB5900029B28 /* 将RGB24格式像素数据转换为YUV420P格式像素数据 */ = {
+			isa = PBXGroup;
+			children = (
+				84520D4C1FDFCB6300029B28 /* 将RGB24格式像素数据转换为YUV420P格式像素数据.c */,
+				84520D4D1FDFCB6300029B28 /* 将RGB24格式像素数据转换为YUV420P格式像素数据.h */,
+			);
+			path = "将RGB24格式像素数据转换为YUV420P格式像素数据";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,11 +263,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				84520D3E1FDE870800029B28 /* 生成YUV420P格式的灰阶测试图.c in Sources */,
+				84520D461FDF868D00029B28 /* 分离RGB24像素数据中的R、G、B分量.c in Sources */,
 				84520D2E1FDE4DD500029B28 /* YUV444P.c in Sources */,
 				84520D321FDE591500029B28 /* yuv420_gray.c in Sources */,
 				84520D361FDE625F00029B28 /* 将YUV420P像素数据的亮度减半.c in Sources */,
+				84520D421FDF774600029B28 /* 计算两个YUV420P像素数据的PSNR.c in Sources */,
 				84520D181FDE404900029B28 /* main.c in Sources */,
 				84520D3A1FDE708200029B28 /* 将YUV420P像素数据的周围加上边框.c in Sources */,
+				84520D4E1FDFCB6300029B28 /* 将RGB24格式像素数据转换为YUV420P格式像素数据.c in Sources */,
+				84520D4A1FDFBAAB00029B28 /* 将RGB24格式像素数据封装为BMP图像.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

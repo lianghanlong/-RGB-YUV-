@@ -19,5 +19,21 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x89c6;&#x97f3;&#x9891;&#x6570;&#x636e;&#x5904;&#x7406;&#x5165;&#x95e8;&#xff1a;RGB&#x3001;YUV&#x50cf;&#x7d20;&#x6570;&#x636e;&#x5904;&#x7406;/&#x5c06;RGB24&#x683c;&#x5f0f;&#x50cf;&#x7d20;&#x6570;&#x636e;&#x5c01;&#x88c5;&#x4e3a;BMP&#x56fe;&#x50cf;/&#x5c06;RGB24&#x683c;&#x5f0f;&#x50cf;&#x7d20;&#x6570;&#x636e;&#x5c01;&#x88c5;&#x4e3a;BMP&#x56fe;&#x50cf;.c"
+            timestampString = "534762694.711347"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "simleat_rgb24_to_bmp"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
